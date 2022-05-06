@@ -42,11 +42,7 @@ public class VisualSetup extends Visual {
 
             // Play audio file
             // add , '3', '4' when adding visual
-<<<<<<< HEAD
             case '1', '2', '3': {
-=======
-            case '1', '2', '3', '4' : {
->>>>>>> 68fd865d29c4c257c88f540c15edb8ea6ad69928
                 getAudioPlayer().play();
                 break;
             }
@@ -100,7 +96,6 @@ public class VisualSetup extends Visual {
                 break;
             }
 
-<<<<<<< HEAD
             
               case 3:
               {
@@ -109,13 +104,6 @@ public class VisualSetup extends Visual {
               break;
               }
              
-=======
-            case 3: {
-                background(0);
-                KeithVis.render(this);
-                break;
-            }
->>>>>>> 68fd865d29c4c257c88f540c15edb8ea6ad69928
 
          
             case 4:
