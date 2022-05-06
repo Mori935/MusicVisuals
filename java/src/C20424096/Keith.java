@@ -15,6 +15,7 @@ public class Keith extends Visual {
         v.rotateX(v.PI * v.frameCount / 120);
         v.sphere(600);
         v.box(300);
+        v.fill(255);
         v.sphere(150);
         v.popMatrix();
 
